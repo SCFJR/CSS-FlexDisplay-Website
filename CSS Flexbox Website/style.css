@@ -75,6 +75,33 @@ body {
     border: 2px solid black;
 }
 
+/* Latihan 4 Card */
+
+.container-empat {
+    width: 800px;
+    margin: 50px auto;
+}
+
+.card {
+    border: 2px solid black;
+    border-radius: 15px;
+    background-color: rgb(255, 255, 255);
+    overflow: hidden;
+    margin-right: 15px;
+    padding: 10px;
+    flex: 1;
+}
+
+.card .content {
+    text-align: center;
+}
+
+.card .header {
+    height: 150px;
+    background-color: rgb(83, 83, 83);
+    border-radius: 15px;
+}
+
 /* Responsiv */
 
 @media ( min-width: 600px ) {
@@ -90,4 +117,14 @@ body {
     .thumbnail {
         width: 25%;
     }
+
+    .container-empat {
+    display: flex;
+    align-content: center;
+    }
+
+    .card {
+        width: 25%;
+    }
+
 }
